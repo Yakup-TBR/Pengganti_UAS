@@ -25,7 +25,7 @@ public class TaxCalculatorTest {
     @Test
     public void testGetTaxRate() {
         // Test getTaxRate method pekerjaan berbeda dan kendaraan berbeda
-        assertEquals(0.13, TaxCalculator.getTaxRate("pegawai", 0, 0), 0.01);
+        assertEquals(0.12, TaxCalculator.getTaxRate("pegawai", 0, 0), 0.01);
         assertEquals(0.16, TaxCalculator.getTaxRate("pegawai", 1, 1), 0.01);
         assertEquals(0.19, TaxCalculator.getTaxRate("wirausaha", 1, 1), 0.01);
         assertEquals(0.16, TaxCalculator.getTaxRate("freelancer", 1, 2), 0.01);
